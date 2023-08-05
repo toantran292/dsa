@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
+const int inf = (int) 1.01e9;
+
 void solve(){
+    int w; cin >> w;
+    if(w == 2) cout << "NO";
+    else cout << ((w&1) ? "NO" : "YES");
 }
 
 int main(){
@@ -16,4 +21,3 @@ int main(){
     }
     return 0;
 }
-

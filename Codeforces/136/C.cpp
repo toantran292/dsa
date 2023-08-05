@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-void solve(){
+const int inf = (int) 1.01e9;
+
+void solve{
+    int n; cin >> n;
+    int a[n];
+    for(auto &x: a) cin >> x;
 }
 
 int main(){

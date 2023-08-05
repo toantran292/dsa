@@ -14,7 +14,8 @@ void SOE(){
 
 int f(int n){
     if(primes[n]) return 1;
-    if(n % 2 == 0 || primes[n-2]) return 2; // Goldbach’s conjecture
+    if(n % 2 == 0) return 2; // Goldbach’s conjecture
+    if(primes[n-2]) return 2;
     return 3;
 }
 

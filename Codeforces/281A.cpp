@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
+const int inf = (int) 1.01e9;
+
 void solve(){
+    string s; cin>>s;
+    s[0] = toupper(s[0]);
+    cout << s;
 }
 
 int main(){
@@ -16,4 +21,5 @@ int main(){
     }
     return 0;
 }
+
 
